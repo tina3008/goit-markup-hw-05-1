@@ -573,17 +573,19 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	border: none;
 	fill: #ffffff;
 background-color: #404bbf; 
+
 }
 .icon-closed{
-	/* padding: 0;
+	padding: 0;
 	fill: #2E2F42;
-	background-color: transparent; */
+	background-color: transparent;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .icon-closed-button:hover .icon-closed,
 .icon-closed-button:focus .icon-closed{
 	fill: #ffffff;
+
 }
 button .icon-closed{
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -700,6 +702,9 @@ resize: none;
 	opacity: 1;
 }
 
+.halochka{
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
 .color-acent{
 	color: #4D5AE5;
