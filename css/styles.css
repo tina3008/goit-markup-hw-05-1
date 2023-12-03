@@ -690,11 +690,7 @@ resize: none;
 	opacity: 1;
 }
 
-/* .check:checked + .new-checkbox{
-	background-color: #404BBF;
-	border: none;
-	fill:#F4F4FD;
-} */
+
 .color-acent{
 	color: #4D5AE5;
 	font-size: 12px;
@@ -707,6 +703,9 @@ text-decoration-line: underline;
 }
 .modal-check{
 	margin-bottom: 24px;
+}
+.modal-comet{
+	margin-bottom: 16px;
 }
 
 .label-chek{
