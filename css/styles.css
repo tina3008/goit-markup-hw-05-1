@@ -541,15 +541,8 @@ padding: 72px  24px  24px 24px;
 
 }
 
-.icon-closed{
-	padding: 0;
-	fill: #2E2F42;
-	background-color: transparent;
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
-/* .icon-closed:hover, .icon-closed:focus{
-	fill: #ffffff
-} */
+
+
 
 .icon-closed-button{
 	width: 24px;
@@ -580,6 +573,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 	fill: #ffffff;
 background-color: #404bbf; 
 }
+.icon-closed{
+	padding: 0;
+	fill: #2E2F42;
+	background-color: transparent;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.icon-closed:hover, .icon-closed:focus{
+	fill: #ffffff
+}
+
+
 .backdrop-txt{
 	color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
