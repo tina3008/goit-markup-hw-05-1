@@ -575,9 +575,9 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #404bbf; 
 }
 .icon-closed{
-	padding: 0;
+	/* padding: 0;
 	fill: #2E2F42;
-	background-color: transparent;
+	background-color: transparent; */
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
