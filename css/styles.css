@@ -580,11 +580,13 @@ background-color: #404bbf;
 	background-color: transparent;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-/* .icon-closed:hover, .icon-closed:focus {
+icon-closed-button:hover .icon-closed{
 	fill: #ffffff;
-} */
-.icon-closed:hover{fill: #ffffff;}
-.icon-closed:focus{fill: #ffffff;}
+}
+
+icon-closed-button:focus + .icon-closed{
+	fill: #ffffff;
+}
 
 .backdrop-txt{
 	color: var(--NAVY-BLUE, #2E2F42);
